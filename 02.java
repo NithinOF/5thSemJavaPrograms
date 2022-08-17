@@ -1,3 +1,20 @@
+/*
+Algorithm
+---------
+Step1:Start.
+Step2:Declare x1,x2,sum,diff,pro,quo,rem as float.
+Step3:Scan elements by passing argument into x1 and x2.
+Step4:sum=x2+x1.
+     diff=x2-x1.
+     pro=x2*x1.
+     quo=x2/x1.
+     rem=x2%x1.
+Step5:print sum,diff,pro,quo,rem.
+Step6:Stop.
+*/
+
+//Program
+
 import java.io.*;
 import java.util.Scanner;
 
