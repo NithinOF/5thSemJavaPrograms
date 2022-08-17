@@ -1,6 +1,6 @@
 /*
 Algorithm
-----------
+---------
 Step1:Start.
 Step2:Declare num1,num2.
 Step3:Print Enter the lower limit and upper limit.
