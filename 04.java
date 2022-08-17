@@ -1,3 +1,30 @@
+/*
+Algorithm
+---------
+Step1:Start.
+Step2:Declare num1,num2.
+Step3:Print Enter the lower limit and upper limit.
+Step4:Scan lower limit and upper limit into num1 and num2.
+Step5:Repeat from i = start_value to end_value.
+       Repeat until (temp != 0).
+       remainder = temp % 10.
+       len=getOrder(i).
+       sum = sum + pow(remainder,len).
+       temp = temp/10.
+       if (result == number).
+       Print the number.
+Step6:Stop.
+
+getOrder Function
+Step1:Start.
+Step2:Declare len=0.
+Step3:Repeat step 4 and 5 until i!=0
+Step4:len++;
+Step5:i=i/10;
+Step6:Return len.
+Step:Stop.
+
+*/
 import java.io.*;
 import java.util.Scanner;
 
