@@ -1,3 +1,27 @@
+/*
+
+Algorithm
+---------
+Step1:Start.
+Step2:Declare x, y, z;
+Step3:Scan values into x, y, z.
+Step4:Call function checkTriangle.
+Step5:Stop.
+
+checkTriangle function
+Step1:Start.
+Step2:Check (x == y && y == z )
+      print Equilateral Triangle.
+Step3:if step 2 is wrong, then Check (x == y || y == z || z == x )
+      print Isosceles Triangle.
+Step4:if step 3 is wrong,
+      print Scalene Triangle.
+Step5:Stop.
+
+*/
+
+//Program
+
 import java.io.*;
 import java.util.Scanner;
 
