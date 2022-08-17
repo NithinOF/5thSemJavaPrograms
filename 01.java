@@ -1,3 +1,17 @@
+/*
+Algorithm
+---------
+Step1:Start.
+step2:Declare x1,x2,y1,y2,d.
+Step3:Print Enter the distance x1 x2 y1 y2.
+Step4:Read elements into x1 x2 y1 y2.
+Step5:d=squarerootof(x2-x1,2)+(y2-y1,2).
+Step6:Print The distance is 'd'.
+Step7:Stop.
+*/
+
+//Program
+
 import java.io.*;
 import java.util.Scanner;
 import java.lang.Math;
