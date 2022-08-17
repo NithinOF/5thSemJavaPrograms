@@ -1,6 +1,6 @@
 /*
 Algorithm
-----------
+---------
 Step1:Start.
 step2:Declare x1,x2,y1,y2,d.
 Step3:Print Enter the distance x1 x2 y1 y2.
