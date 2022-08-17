@@ -1,6 +1,6 @@
 /*
 Algorithm
----------
+----------
 Step1:Start.
 Step2:Declare variables i, a,b ,temp.
 Step3:Initialize the variables, a=0, b=1, and temp=0.
