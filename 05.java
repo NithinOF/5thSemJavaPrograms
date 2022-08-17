@@ -1,7 +1,7 @@
 /*
 
 Algorithm
-----------
+---------
 Step1:Start.
 Step2:Declare x, y, z;
 Step3:Scan values into x, y, z.
