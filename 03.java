@@ -1,3 +1,23 @@
+/*
+Algorithm
+---------
+Step1:Start.
+Step2:Declare variables i, a,b ,temp.
+Step3:Initialize the variables, a=0, b=1, and temp=0.
+Step4:Enter the number of terms of Fibonacci series to be printed.
+Step5:Print First two terms of series.
+Step6:Use loop for the following steps.
+      temp=a+b.
+      a=b.
+      b=temp.
+      increase value of i each time by 1.
+      print the value of show.
+Step7:Stop.
+*/
+
+
+//Program
+
 import java.io.*;
 import java.util.Scanner;
 
