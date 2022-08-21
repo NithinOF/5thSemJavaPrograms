@@ -1,6 +1,6 @@
 /*
 Algorithm
----------
+----------
 Step1:Start.
 Step2:Declare x1,x2,sum,diff,pro,quo,rem as float.
 Step3:Scan elements by passing command line argument into x1 and x2.
