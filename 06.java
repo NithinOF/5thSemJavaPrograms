@@ -2,9 +2,9 @@
 Algorithm
 ---------
 step1:Start.
-step2:Create object to scan recieve input
+step2:Create object to scan  input
 step3:Print "Enter the number of elements:".
-Step4:Scan elements into n.
+Step4:Scan no of elements into n.
 Step5:Create an Array.
 Step6:Scan elements into array.
 Step7:Sort the array using loop.
