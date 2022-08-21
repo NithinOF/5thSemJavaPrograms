@@ -10,7 +10,6 @@ Step6:Scan elements into array.
 Step7:Sort the array using loop.
 Step8:Print elements in the index position 0, n-1,n-2.
 Step9:Stop
-
 */
 
 //Program
