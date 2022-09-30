@@ -1,0 +1,106 @@
+import java.io.*;
+import java.util.Scanner;
+
+class Student
+ {
+   int id;
+   char name;
+   int rollNo;
+   char courseId;
+  
+
+  void read()
+  {
+     Scanner sc=new Scanner(System.in);
+     System.out.println("Enter the Student ID");
+     this.id=sc.nextInt();
+     System.out.println("Enter the Student Name");
+     this.name=sc.next().charAt(0);
+     System.out.println("Enter Roll Number");
+     this.rollNo=sc.nextInt();
+     System.out.println("Enter the Course ID");
+     this.courseId=sc.next().charAt(0);
+     System.out.println("Details Submited Successfully");
+   }
+
+  void display()
+  {
+   System.out.println("--\n Student ID: "+this.id);
+   System.out.println("Student Name: "+this.name);
+   System.out.println("Student RollNumber: "+this.rollNo);
+   System.out.println("Student Course ID: "+this.courseId);
+   }
+ }
+
+  class Results extends Student
+ {
+  int[] marks=new int[10];
+  int tMark;
+  int mPercent;
+  
+   void readMark()
+  {
+   Scanner sc=new Scanner(System.in);
+   for(int i=0;i<5;i++)
+   {
+    System.out.println("subject"+i+": ");
+    this.marks[i]=sc.nextInt();
+    }
+  }
+ void totalMark()
+  { 
+   tMark=0;
+  for(int i=0;i<5;i++)
+    {
+      this.tMark+=this.marks[i];
+    }
+   
+  }
+
+ void markPercent()
+  {
+    int d=this.tMark/1000;
+    this.mPercent=d*100;
+   }
+
+}
+
+
+public class studentGrade
+ {
+  public static void main(String args[])
+   {
+    Scanner sc=new Scanner(System.in);
+    Results sDetails=new Results();
+    char proceed;
+    int choice;
+    do{
+      	System.out.println(" \n 1.Enter the Student Details \n 2.Enter the marks \n 3.Display Report \n 4.Exit");
+        choice=sc.nextInt();
+        switch(choice)
+             {
+ 		case 1:sDetails.read();
+			break;
+		case 2:sDetails.readMark();
+   			break;
+		case 3:sDetails.display();
+                       System.out.println("Total mark: "+sDetails.tMark+"\n Grade:"+sDetails.mPercent);
+                       break;
+                case 4:System.out.println("Exiting......");
+   			break;
+		default:System.out.println("Invalid option");
+                        break;
+              }
+        System.out.println("Do you want to continue(Y/N)");
+        proceed=sc.next().charAt(0);
+       }while(proceed=='y'||proceed=='Y');
+    } 
+ }
+            
+       
+
+
+        
+
+
+
